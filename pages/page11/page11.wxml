@@ -1,0 +1,16 @@
+<view class="container">
+   <icon class='./iconfont/iconcheck-circle-fill:before' style="font-size:100px;color:#07C160;padding-top:10%;"></icon>
+   <textarea class="title">新设备注册成功</textarea> 
+   <text class="notice">UserName: {{username}}
+                            Password: {{pwd}}
+                            wssEndpoint: {{wssEndpoint}}
+                            tcpEndpoint: {{tcpEndpoint}}
+   sslEndpoint: {{sslEndpoint}}\n</text> 
+   <text class="psnote">*以上为重要信息，建议保存。友情提示：后续连接设备发送信息需要用到的WSS地址。</text>
+   <view class="buttonclass">
+    <button class="button1" bindtap="sendmessage">往新设备发送信息</button>
+  </view>
+  <view class="buttonclass">
+    <button class="button2" bindtap="backto">继续去创建新设备</button>
+  </view>
+</view>

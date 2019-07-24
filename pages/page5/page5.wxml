@@ -1,0 +1,16 @@
+<view class="container">
+  <view class="inputform">
+  <view class="itemView">主题*：
+  </view>
+  <view class="itemView">
+    <input class="input" name="topic" placeholder="{{topic}}" 
+    bindinput="topicInput"/>
+  </view>
+  <view class="notice">
+     <text class="notice-info">以上默认填入之前显示在发送消息页面的主题。</text>
+  </view>
+  <view class="buttonclass">
+    <button class="button1" bindtap="connectto">订阅当前主题</button>
+  </view>
+  </view>
+</view>

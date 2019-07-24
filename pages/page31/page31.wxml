@@ -1,0 +1,32 @@
+<view class="container">
+<view class="notice">
+    <icon class='./iconfont/iconcheck-circle-fill:before' style="font-size:30px;color:#07C160;display: flex;"></icon>
+     <text class="notice-info">已成功连接到物影子
+     为确保收到已发送消息的反馈，请一定要在发送前订阅(subscribe)相关主题，可以通过下方按钮订阅</text>
+  </view>
+  <view class="buttonclass">
+    <button class="button2" bindtap="totopic">前往订阅主题</button>
+  </view>
+  <view class="notice">
+    <icon class='./iconfont/iconcheck-circle-fill:before' style="font-size:30px;color:#07C160;display: flex;"></icon>
+     <text class="notice-info">如已订阅好主题，可以编辑要发送的信息：</text>
+  </view>
+  <view class="inputform">
+  <view class="itemView">主题*(默认填入MQTT自带update主题)：
+  </view>
+  <view class="itemView">
+    <input class="input" name="topic" placeholder="{{topic}}" 
+    bindinput="topicInput"/>
+  </view>
+  <view class="itemView">
+    <input class="input" name="message" placeholder="请输入自定义消息内容" 
+    bindinput="messageInput"/>
+  </view>
+  <view class="notice1">
+    <text class="psnote">目前仅支持按以下格式输入并发送消息:变量=值，比如，yes=1，no=2。>1个变量请用空格隔开!!</text>
+  </view>
+  <view class="buttonclass">
+    <button class="button1" bindtap="connectto">Publish/发送</button>
+  </view>
+  </view>
+</view>

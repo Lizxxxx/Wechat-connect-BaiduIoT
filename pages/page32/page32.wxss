@@ -1,0 +1,31 @@
+page{
+  height: 100%;
+}
+
+.container{
+  padding-top: 0rpx;
+  display: flex;
+  width: 100%;
+background-color: #EDEDED;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  height: 80px;
+}
+
+.notice {
+  height: 70%;
+  font-size:20px;
+  width: 75%;
+}
+
+.button2 {
+  background: #D9D9D9;
+  width: 100%;
+  color: #07C160;
+  font-size: 20px;
+  font-weight: bold;
+}

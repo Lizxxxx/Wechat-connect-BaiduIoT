@@ -1,0 +1,83 @@
+page{
+  height: 100%;
+}
+
+.container{
+  padding-top: 0rpx;
+  display: flex;
+  width: 100%;
+background-color: #EDEDED;
+}
+
+.inputform {
+  padding-top:40px;
+  height:75%;
+  width:100%;
+  color: rgb(0,0,0,0.5);
+}
+
+.itemView{
+  display: flex;
+  width: 100%;
+  background: white;
+  overflow:hidden;
+  height:44px;
+  font-size:18px;
+  padding-top: 5px;
+  vertical-align: center;
+  padding-left: 10px;
+}
+
+.info-list {
+  display: flex;
+  font-size: 20px;
+  padding-top: 5px;
+  color:rgb(0,0,0,0.5);
+}
+
+.info-list1 {
+  font-size: 18px;
+  padding-top: 3px;
+  color:rgb(0,0,0,0.5);
+  padding-left: 30px;
+}
+
+.buttonclass {
+  padding-top:60px;
+}
+.button1 {
+  background: #D9D9D9;
+  width: 75%;
+  color: #07C160;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.button3 {
+  background: #D9D9D9;
+  width: 75%;
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.notice1 {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.psnote {
+  color:rgb(0,0,0,0.5);
+  font-size:16px;
+}
+.psnote1 {
+  color:red;
+  font-size:16px;
+}
+
+.button2 {
+  background: white;
+  width: 100;
+  color: #576B95;
+  font-size: 20px;
+}

@@ -1,0 +1,28 @@
+<view class="container">
+<view class="notice">
+     <text class="notice-info">用小程序模拟一台设备连接百度智能云IoT。如果你已有设备信息，可直接填写并连接。如没有，请点击下方新建设备。</text>
+  </view>
+  <view class="inputform">
+  <view class="itemView">用户名*：
+    <input class="input" name="Username" placeholder="物影子用户名" 
+    bindinput="usernameInput"/>
+  </view>
+  <view class="itemView">密码*：
+    <input class="input" name="Password" placeholder="物影子专属密码"
+    bindinput="pwdInput"/>
+  </view>
+  <view class="itemView">WSS地址*：
+    <input class="input" name="wss" placeholder="wss云端地址" 
+    bindinput="wssInput"/>
+  </view>
+  <view class="buttonclass">
+    <button class="button1" bindtap="connectto">连接物影子</button>
+  </view>
+  <view class="buttonclass">
+    <button class="button2" bindtap="todevice">新建设备</button>
+  </view>
+  <view class="buttonclass">
+    <button class="button3" bindtap="tomessage">查看已发送消息</button>
+  </view>
+  </view>
+</view>

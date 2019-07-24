@@ -1,0 +1,25 @@
+<view class="container">
+<view class="notice">
+     <text class="notice-info">创建好新设备后，我们可以尝试给其发送一条信息。发送信息之前，我们需要先连接新的物影子。</text>
+  </view>
+  <view class="inputform">
+  <view class="itemView">用户名*：
+    <input class="input" name="Username" placeholder="{{username}}" 
+    bindinput="usernameInput"/>
+  </view>
+  <view class="itemView">密码*：
+    <input class="input" name="Password" placeholder="{{pwd}}"
+    bindinput="pwdInput"/>
+  </view>
+  <view class="itemView">WSS地址*：
+    <input class="input" name="wss" placeholder="{{wss}}" 
+    bindinput="wssInput"/>
+  </view>
+  <view class="notice1">
+    <text class="psnote">以上默认填入刚刚创建的新设备信息</text>
+  </view>
+  <view class="buttonclass">
+    <button class="button1" bindtap="connectto">连接物影子</button>
+  </view>
+  </view>
+</view>

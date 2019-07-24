@@ -1,0 +1,26 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/page1/page1",
+    "pages/page2/page2",
+    "pages/page11/page11",
+    "pages/page12/page12",
+    "pages/page31/page31",
+    "pages/page32/page32",
+    "pages/page4/page4",
+    "pages/page41/page41",
+    "pages/page5/page5",
+    "pages/page6/page6",
+    "pages/page7/page7",
+    "pages/page20/page20",
+    "pages/page70/page70",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

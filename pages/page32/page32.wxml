@@ -1,0 +1,8 @@
+<view class="container">
+   <icon class='./iconfont/iconwarning-circle-fill:before' style="font-size:100px;color:#FA5151;padding-top:15%; "></icon>
+   <textarea class="title">物影子连接失败</textarea> 
+   <text class="notice">建议检查输入的各项信息是否正确</text> 
+  <view class="buttonclass">
+    <button class="button2" bindtap="backto">返回重新连接</button>
+  </view>
+</view>

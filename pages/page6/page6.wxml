@@ -1,0 +1,10 @@
+<view class="container">
+   <icon class='./iconfont/iconcheck-circle-fill:before' style="font-size:100px;color:#07C160;padding-top:15%;"></icon>
+   <textarea class="title">主题订阅成功</textarea> 
+   <view class="buttonclass">
+    <button class="button1" bindtap="backto">返回发送消息</button>
+  </view>
+  <view class="buttonclass">
+    <button class="button2" bindtap="sendmessage">前往消息列表</button>
+  </view>
+</view>

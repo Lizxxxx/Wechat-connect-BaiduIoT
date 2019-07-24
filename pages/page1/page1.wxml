@@ -1,0 +1,26 @@
+<view class="container">
+<view class="notice">
+     <text class="notice-info">通过这个小程序，我们可以发送HTTPS请求唤醒百度天工函数计算CFC里已经设置好的注册新设备的算法，生成一个对应此新设备的新物影子。</text>
+  </view>
+  <view class="inputform">
+  <view class="itemView">设备名称*：
+    <input class="input" name="deviceName" placeholder="自定义设备名称" 
+    bindinput="deviceNameInput"/>
+  </view>
+  <view class="itemView">设备描述：
+    <input class="input" name="description" placeholder="自定义设备描述(可选)" 
+    bindinput="descriptionInput"/>
+  </view>
+  <view class="itemView">设备ID*：
+    <input class="input" name="deviceId" placeholder="用于白名单验证的ID" 
+    bindinput="deviceIdInput"/>
+  </view>
+  <view class="itemView">HTTPS地址*：
+    <input class="input" name="httpstext" placeholder="CFC函数的HTTP触发器地址" 
+    bindinput="httpsInput"/>
+  </view>
+  <view class="buttonclass">
+    <button class="button1" bindtap="createdevice">HTTPS注册新设备</button>
+  </view>
+  </view>
+</view>

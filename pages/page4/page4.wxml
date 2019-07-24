@@ -1,0 +1,26 @@
+<view class="container">
+  <view class="inputform">
+  <view class="itemView">
+    <text class="info-list" name="Username"
+    bindtap="usernameInput">以下消息已成功发送</text>
+  </view>
+  <view class="itemView">主  题
+    <text class="info-list1">{{topic}}</text>
+  </view>
+  <view class="itemView">主题内容
+    <text class="info-list1">{{message}}</text>
+  </view>
+  <view class="buttonclass1">
+    <button class="button2" bindtap="connectto">前往订阅当前主题</button>
+  </view>
+  <view class="notice1">
+    <text class="psnote1">*如果你之前忘记订阅该主题，请点击上方按钮前往订阅，否则无法收到消息发送的回执。</text>
+  </view>
+  <view class="buttonclass">
+    <button class="button1" bindtap="backto">已订阅，返回发送新消息</button>
+  </view>
+  <view class="buttonclass">
+    <button class="button3" bindtap="tomessage">已订阅，前往消息列表</button>
+  </view>
+  </view>
+</view>

@@ -1,0 +1,47 @@
+page{
+  height: 100%;
+}
+
+.container{
+  padding-top: 0rpx;
+  display: flex;
+  width: 100%;
+background-color: #EDEDED;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  height: 120px;
+}
+
+.notice {
+  font-size:17px;
+  width: 85%;
+}
+
+.psnote {
+  color:red;
+  font-size:16px;
+  width:85%;
+  height: 20%;
+}
+
+.buttonclass{
+  padding-top: 30px;
+}
+.button1 {
+  background: #07C160;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.button2 {
+  background: #D9D9D9;
+  width: 100%;
+  color: #07C160;
+  font-size: 20px;
+  font-weight: bold;
+}

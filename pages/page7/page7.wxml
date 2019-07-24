@@ -1,0 +1,22 @@
+<view class="container">
+  <view class="inputform">
+  <view class="itemView">
+    <text class="info-list">消息列表(已成功发送)</text>
+  </view>
+  <view wx:for="{{message_list}}">
+  <!--<view class="itemView">主题
+    <text class="info-list1">{{topic}}</text>
+  </view>-->
+   <view class="itemView">
+    <text class="info-list2">{{item}}</text>
+  </view>
+  </view>
+
+  <view class="buttonclass1">
+    <button class="button2" bindtap="backformessage">返回继续发送信息</button>
+  </view>
+  <view class="buttonclass">
+    <button class="button1" bindtap="backfordevice">返回首页</button>
+  </view>
+  </view>
+</view>
